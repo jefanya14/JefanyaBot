@@ -78,7 +78,8 @@ class ExamplePlugin(plugin.Plugin):
         self.log.info("Restoring data plugin: %s", self.name)
         await self.db.update_one({"chat_id": chat_id}, {"$set": data[self.name]}, upsert=True)
 
-    async def cmd_test(self, ctx: command.Context) -> str:
+    @staticmethod
+    async def cmd_test(ctx: command.Context) -> str:
         await ctx.respond("Processing...")
         await asyncio.sleep(1)
 
