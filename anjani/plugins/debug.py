@@ -33,7 +33,8 @@ from anjani import command, filters, plugin, util
 class Debug(plugin.Plugin):
     name: ClassVar[str] = "Debug"
 
-    async def cmd_ping(self, ctx: command.Context) -> str:
+    @staticmethod
+    async def cmd_ping(ctx: command.Context) -> str:
         start = datetime.now()
         await ctx.respond("Calculating response time...")
         end = datetime.now()

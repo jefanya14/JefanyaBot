@@ -81,7 +81,8 @@ class Misc(plugin.Plugin):
     name: ClassVar[str] = "Miscs"
     helpable: ClassVar[bool] = True
 
-    async def cmd_id(self, ctx: command.Context) -> str:
+    @staticmethod
+    async def cmd_id(ctx: command.Context) -> str:
         """Display ID's"""
         msg = ctx.msg.reply_to_message or ctx.msg
         out_str = f"👥 **Chat ID :** `{(msg.forward_from_chat or msg.chat).id}`\n"
@@ -159,8 +160,9 @@ class Misc(plugin.Plugin):
         except (JSONDecodeError, ContentTypeError, ClientConnectorError, KeyError):
             return await self.text(ctx.chat.id, "paste-fail", service)
 
+    @staticmethod
     @command.filters(filters.private)
-    async def cmd_source(self, ctx: command.Context) -> None:
+    async def cmd_source(ctx: command.Context) -> None:
         """Send the bot source code"""
         await ctx.respond(
             "[GitHub repo](https://github.com/userbotindo/Anjani)\n"
