@@ -2,8 +2,8 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-[![DeepSource](https://deepsource.io/gh/userbotindo/Anjani.svg/?label=active+issues)](https://deepsource.io/gh/userbotindo/Anjani/?ref=repository-badge)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dea98029aaf248538a413e26aa2a194a)](https://www.codacy.com/gh/userbotindo/Anjani/dashboard?utm_source=github.com&utm_medium=referral&utm_content=userbotindo/Anjani&utm_campaign=Badge_Grade)
+[![DeepSource](https://deepsource.io/gh/jefanya14/anjani.svg/?label=active+issues)](https://deepsource.io/gh/jefanya14/anjani/?ref=repository-badge)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/dea98029aaf248538a413e26aa2a194a)](https://www.codacy.com/gh/jefanya14/anjani/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jefanya14/anjani&utm_campaign=Badge_Grade)
 
 A modular Telegram group management bot running with Python based on [Pyrogram](https://github.com/pyrogram/pyrogram).
 
@@ -49,10 +49,10 @@ Once everything set up, start the client by running
 
 ## Plugin
 
-If you want to make your custom plugins, refer to [Anjani's Wiki](https://github.com/userbotindo/Anjani/wiki). It has a lot of important things to read and a plugin example to guide you.
+If you want to make your custom plugins, refer to [Anjani's Wiki](https://github.com/jefanya14/anjani/wiki). It has a lot of important things to read and a plugin example to guide you.
 
 ## Credits
 
 - [Marie](https://github.com/PaulSonOfLars/tgbot)
 - [Pyrobud](https://github.com/kdrag0n/pyrobud)
-- [All Contributors 👥](https://github.com/userbotindo/Anjani/graphs/contributors)
+- [All Contributors 👥](https://github.com/jefanya14/anjani/graphs/contributors)

@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "anjani"
+name = "JefanyaBot"
 version = "1.3.3"
 description = "Telegram group management bot"
 license = "GPL-3.0-or-later"
-authors = ["UserbotIndo Team"]
+authors = ["JefanyaStore Team"]
 readme = "README.md"
-homepage = "https://github.com/userbotindo/anjani#readme"
-repository = "https://github.com/userbotindo/anjani"
-documentation = "https://github.com/userbotindo/Anjani/wiki"
+homepage = "https://github.com/jefanya14/anjani#readme"
+repository = "https://github.com/jefanya14/anjani"
+documentation = "https://github.com/jefanya14/anjani/wiki"
 keywords = ["chatbot", "bot", "python", "telegram-bot", "pyrogram"]
 classifiers = [
     "Environment :: Console",
