@@ -2,7 +2,7 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-[![DeepSource](https://deepsource.io/gh/jefanya14/anjani.svg/?label=active+issues)](https://deepsource.io/gh/jefanya14/anjani/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/jefanya14/jefanyabot.svg/?label=active+issues)](https://deepsource.io/gh/jefanya14/anjani/?ref=repository-badge)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/dea98029aaf248538a413e26aa2a194a)](https://www.codacy.com/gh/jefanya14/anjani/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jefanya14/anjani&utm_campaign=Badge_Grade)
 
 A modular Telegram group management bot running with Python based on [Pyrogram](https://github.com/pyrogram/pyrogram).
