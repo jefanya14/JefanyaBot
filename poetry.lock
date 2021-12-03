@@ -411,7 +411,7 @@ python-versions = "*"
 
 [[package]]
 name = "pylint"
-version = "2.12.1"
+version = "2.12.2"
 description = "python code static checker"
 category = "dev"
 optional = false
@@ -638,7 +638,7 @@ uvloop = ["uvloop"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8, <3.10"
-content-hash = "f1be4d14a21205bdff16a879c268f30b7f49a3e1bab1e9c0913c5100b6bc697d"
+content-hash = "ca9a91debfa3478b835e6a4112eb702a9b4ed44d20e27df87090e988e350c9d0"
 
 [metadata.files]
 aiofile = [
@@ -1017,8 +1017,8 @@ pyaes = [
     {file = "pyaes-1.6.1.tar.gz", hash = "sha256:02c1b1405c38d3c370b085fb952dd8bea3fadcee6411ad99f312cc129c536d8f"},
 ]
 pylint = [
-    {file = "pylint-2.12.1-py3-none-any.whl", hash = "sha256:b4b5a7b6d04e914a11c198c816042af1fb2d3cda29bb0c98a9c637010da2a5c5"},
-    {file = "pylint-2.12.1.tar.gz", hash = "sha256:4f4a52b132c05b49094b28e109febcec6bfb7bc6961c7485a5ad0a0f961df289"},
+    {file = "pylint-2.12.2-py3-none-any.whl", hash = "sha256:daabda3f7ed9d1c60f52d563b1b854632fd90035bcf01443e234d3dc794e3b74"},
+    {file = "pylint-2.12.2.tar.gz", hash = "sha256:9d945a73640e1fec07ee34b42f5669b770c759acd536ec7b16d7e4b87a9c9ff9"},
 ]
 pymongo = [
     {file = "pymongo-4.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:8c7dcaa2ac718dc9815ab63bef1b27d6527907767c4a2e5e52534950385f8abd"},
