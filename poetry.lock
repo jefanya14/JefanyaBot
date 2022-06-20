@@ -98,14 +98,6 @@ typing-extensions = {version = ">=3.10", markers = "python_version < \"3.10\""}
 wrapt = ">=1.11,<1.14"
 
 [[package]]
-name = "async-lru"
-version = "1.0.2"
-description = "Simple lru_cache for asyncio"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "async-timeout"
 version = "4.0.0"
 description = "Timeout context manager for asyncio programs"
@@ -445,14 +437,13 @@ zstd = ["zstandard"]
 
 [[package]]
 name = "pyrogram"
-version = "1.2.9"
-description = "Telegram MTProto API Client Library and Framework for Python"
+version = "2.0.29"
+description = "Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots"
 category = "main"
 optional = false
-python-versions = "~=3.6"
+python-versions = "~=3.7"
 
 [package.dependencies]
-async-lru = "1.0.2"
 pyaes = "1.6.1"
 pysocks = "1.7.1"
 
@@ -638,7 +629,7 @@ uvloop = ["uvloop"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8, <3.10"
-content-hash = "f1be4d14a21205bdff16a879c268f30b7f49a3e1bab1e9c0913c5100b6bc697d"
+content-hash = "aa4dccd992201c09205bc98d2a02d1c024f7fbd1959d174b61b852bfb8c65e6a"
 
 [metadata.files]
 aiofile = [
@@ -738,9 +729,6 @@ anyio = [
 astroid = [
     {file = "astroid-2.9.0-py3-none-any.whl", hash = "sha256:776ca0b748b4ad69c00bfe0fff38fa2d21c338e12c84aa9715ee0d473c422778"},
     {file = "astroid-2.9.0.tar.gz", hash = "sha256:5939cf55de24b92bda00345d4d0659d01b3c7dafb5055165c330bc7c568ba273"},
-]
-async-lru = [
-    {file = "async_lru-1.0.2.tar.gz", hash = "sha256:baa898027619f5cc31b7966f96f00e4fc0df43ba206a8940a5d1af5336a477cb"},
 ]
 async-timeout = [
     {file = "async-timeout-4.0.0.tar.gz", hash = "sha256:7d87a4e8adba8ededb52e579ce6bc8276985888913620c935094c2276fd83382"},
@@ -1106,8 +1094,8 @@ pymongo = [
     {file = "pymongo-4.0.tar.gz", hash = "sha256:6d158eadba3aaab276a3b188b7f467ab0384b68c1d31cfa87335e52addd9dcb6"},
 ]
 pyrogram = [
-    {file = "Pyrogram-1.2.9-py3-none-any.whl", hash = "sha256:85cacbcebb704f6d849ff52b07e1bb4972b4ff81216c3d45ed385e9a5ab057a7"},
-    {file = "Pyrogram-1.2.9.tar.gz", hash = "sha256:0f207cac92f4a4d204037214a1ebb54ba272a9557a22633427880fdef844c012"},
+    {file = "Pyrogram-2.0.29-py3-none-any.whl", hash = "sha256:d7b54bb15d4c50033643334a52f9e909f319eac3b9cc3956cf2e2455cc4ca25a"},
+    {file = "Pyrogram-2.0.29.tar.gz", hash = "sha256:a4bca6ec537c9fb40c7d8b04a350b83d6e41079c4d19065e94427fcf1ee5fe3b"},
 ]
 pysocks = [
     {file = "PySocks-1.7.1-py27-none-any.whl", hash = "sha256:08e69f092cc6dbe92a0fdd16eeb9b9ffbc13cadfe5ca4c7bd92ffb078b293299"},
